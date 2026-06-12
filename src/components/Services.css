@@ -1,0 +1,76 @@
+.services {
+  padding: 7rem 0;
+  background: var(--white);
+  position: relative;
+  overflow: hidden;
+}
+
+.services__bg-shape {
+  position: absolute;
+  top: -40%; right: -15%;
+  width: 600px; height: 600px;
+  background: radial-gradient(circle, rgba(34,197,94,.06) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.services__header { text-align: center; margin-bottom: 4rem; }
+.services__header .section-tag { border-color: var(--accent); color: var(--accent-dark); }
+.services__header .section-title { color: var(--text-dark); }
+.services__header .section-subtitle { color: var(--text-body); margin-inline: auto; }
+
+.services__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.services__card {
+  background: var(--off-white);
+  border: 1px solid var(--gray-300);
+  border-radius: var(--radius-md);
+  padding: 2.2rem 1.8rem;
+  position: relative; overflow: hidden;
+  transition: var(--transition);
+}
+.services__card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: var(--accent);
+  transform: scaleX(0);
+  transition: transform .35s ease;
+}
+.services__card:hover {
+  background: var(--white);
+  border-color: var(--accent);
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-md);
+}
+.services__card:hover::before { transform: scaleX(1); }
+
+.services__card-icon { font-size: 1.8rem; color: var(--accent); margin-bottom: 1rem; }
+
+.services__card-tag {
+  font-size: .68rem;
+  font-family: var(--font-mono);
+  font-weight: 700;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--accent-dark);
+  display: block;
+  margin-bottom: .6rem;
+}
+
+.services__card-title { color: var(--text-dark); font-size: 1.1rem; font-weight: 700; margin-bottom: .75rem; }
+.services__card-text { color: var(--text-body); font-size: .9rem; line-height: 1.7; }
+
+.services__card-line {
+  position: absolute; bottom: 0; left: 0; width: 100%; height: 1px;
+  background: linear-gradient(90deg, transparent, var(--accent), transparent);
+  opacity: 0; transition: opacity .4s;
+}
+.services__card:hover .services__card-line { opacity: 1; }
+
+@media (max-width: 900px) { .services__grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 560px) { .services__grid { grid-template-columns: 1fr; } }

@@ -1,0 +1,31 @@
+.social-bar {
+  position: fixed;
+  right: 0; top: 50%;
+  transform: translateY(-50%);
+  z-index: 900;
+  display: flex; flex-direction: column; gap: 0;
+}
+
+.social-bar__btn {
+  display: flex; align-items: center; gap: .6em;
+  background: var(--color, var(--text-dark));
+  color: var(--white);
+  padding: .7rem .65rem;
+  font-size: 1.1rem;
+  transition: padding-right .3s ease, background .2s;
+  overflow: hidden; max-width: 42px;
+  white-space: nowrap; border-radius: 0; opacity: .85;
+}
+.social-bar__btn:first-child { border-radius: var(--radius-sm) 0 0 0; }
+.social-bar__btn:last-child { border-radius: 0 0 0 var(--radius-sm); }
+.social-bar__btn:hover { max-width: 160px; padding-right: 1rem; opacity: 1; background: var(--accent); }
+
+.social-bar__label {
+  font-size: .78rem; font-weight: 700; letter-spacing: .04em;
+  opacity: 0; max-width: 0;
+  transition: opacity .25s .05s ease, max-width .3s ease;
+  pointer-events: none;
+}
+.social-bar__btn:hover .social-bar__label { opacity: 1; max-width: 100px; }
+
+@media (max-width: 768px) { .social-bar { display: none; } }

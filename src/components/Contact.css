@@ -1,0 +1,76 @@
+.contact {
+  padding: 7rem 0;
+  background: var(--white);
+}
+
+.contact__header { text-align: center; margin-bottom: 4rem; }
+
+.contact__grid {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+.contact__info h3 { font-size: 1.25rem; font-weight: 700; color: var(--text-dark); margin-bottom: .75rem; }
+.contact__info > p { color: var(--text-body); font-size: .95rem; margin-bottom: 2rem; }
+
+.contact__list { display: flex; flex-direction: column; gap: 1.1rem; margin-bottom: 2rem; }
+.contact__list li { display: flex; align-items: flex-start; gap: 1rem; font-size: .9rem; color: var(--text-body); }
+.contact__icon { color: var(--accent); font-size: 1rem; flex-shrink: 0; margin-top: .15rem; }
+.contact__icon--whatsapp { color: #25d366; }
+.contact__list a { color: var(--accent-dark); font-weight: 600; transition: color .2s; }
+.contact__list a:hover { color: var(--accent); }
+
+.contact__image { border-radius: var(--radius-md); overflow: hidden; border: 1px solid var(--gray-300); }
+.contact__image img { width: 100%; height: 220px; object-fit: cover; transition: transform .5s ease; }
+.contact__image:hover img { transform: scale(1.04); }
+
+.contact__form-wrap {
+  background: var(--off-white);
+  border-radius: var(--radius-md);
+  padding: 2.5rem;
+  border: 1px solid var(--gray-300);
+}
+
+.contact__row { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem; }
+
+.contact__field { display: flex; flex-direction: column; gap: .4rem; margin-bottom: 1.2rem; }
+.contact__field label { font-size: .82rem; font-weight: 700; color: var(--text-dark); letter-spacing: .02em; }
+.contact__field input,
+.contact__field textarea {
+  padding: .75rem 1rem;
+  border: 1px solid var(--gray-300);
+  border-radius: var(--radius-sm);
+  font-family: var(--font-sans);
+  font-size: .92rem;
+  color: var(--text-dark);
+  background: var(--white);
+  transition: border-color .25s, box-shadow .25s;
+  resize: vertical;
+}
+.contact__field input:focus,
+.contact__field textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(34,197,94,.12);
+  background: var(--white);
+}
+
+.contact__submit { width: 100%; justify-content: center; font-size: 1rem; }
+
+.contact__success { text-align: center; padding: 3rem 1rem; }
+.contact__success-icon {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 64px; height: 64px;
+  background: var(--accent-light); color: var(--accent-dark);
+  font-size: 2rem; border-radius: 50%; margin-bottom: 1.5rem;
+}
+.contact__success h3 { color: var(--text-dark); margin-bottom: .75rem; }
+.contact__success p { color: var(--text-body); margin-bottom: 2rem; }
+
+@media (max-width: 860px) { .contact__grid { grid-template-columns: 1fr; gap: 2rem; } }
+@media (max-width: 560px) {
+  .contact__row { grid-template-columns: 1fr; }
+  .contact__form-wrap { padding: 1.5rem; }
+}
