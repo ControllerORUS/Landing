@@ -4,21 +4,9 @@ import './Hero.css'
 const slides = [
   {
     image: 'https://images.unsplash.com/photo-1500937386664-56d1dfef3854?w=1600&q=80',
-    tag: 'Innovación Agrícola',
-    title: 'El Futuro del\nCampo Empieza Aquí',
-    subtitle: 'Conectamos tecnología, naturaleza y talento para transformar la agricultura latinoamericana.',
-  },
-  {
-    image: 'https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?w=1600&q=80',
-    tag: 'Sostenibilidad',
-    title: 'Cosechas que\nNutren al Mundo',
-    subtitle: 'Impulsamos prácticas agrícolas sostenibles que cuidan el planeta y maximizan el rendimiento.',
-  },
-  {
-    image: 'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=1600&q=80',
-    tag: 'Tecnología de Campo',
-    title: 'Datos en Tiempo\nReal para tu Tierra',
-    subtitle: 'Monitoreo inteligente, análisis de suelo y gestión de cultivos en una sola plataforma.',
+    tag: 'Agricultura de Precisión',
+    title: 'Decisiones agrícolas \nrespaldadas por datos',
+    subtitle: 'Monitoreo en tiempo real, trazabilidad operativa y análisis multiespectral, potenciados por Inteligencia Artificial desde una sola plataforma.',
   },
 ]
 
@@ -57,8 +45,8 @@ export default function Hero() {
         </h1>
         <p className="hero__subtitle">{slides[current].subtitle}</p>
         <div className="hero__actions">
-          <a href="https://orion.orusagro.com/" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Conocer Orion</a>
-          <a href="https://orion.orusagro.com/" target="_blank" rel="noopener noreferrer" className="btn btn-outline-light">Hablar con un experto</a>
+          <a href="https://orion.orusagro.com/" target="_blank" rel="noopener noreferrer" className="btn btn-primary">ORION</a>
+          <a href="https://calendly.com/danielpc76/30min" target="_blank" rel="noopener noreferrer" className="btn btn-outline-light">Agenda una demo</a>
         </div>
       </div>
 

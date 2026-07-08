@@ -1,12 +1,31 @@
 import React from 'react'
 import './About.css'
 import { FaLeaf, FaHandshake, FaSeedling, FaGlobeAmericas } from 'react-icons/fa'
+import { FaSatellite } from "react-icons/fa6";
+import { MdDocumentScanner, MdFormatPaint } from "react-icons/md";
+import { BsPhoneFill, BsFilePerson } from "react-icons/bs";
 
 const values = [
-  { icon: <FaSeedling />, title: 'Innovación', text: 'Aplicamos tecnología de punta para optimizar cada etapa del proceso agrícola.' },
-  { icon: <FaLeaf />,      title: 'Sostenibilidad', text: 'Comprometidos con el cuidado del medio ambiente y la producción responsable.' },
-  { icon: <FaHandshake />, title: 'Colaboración', text: 'Trabajamos junto a agricultores, empresas y gobiernos para un mayor impacto.' },
-  { icon: <FaGlobeAmericas />, title: 'Alcance Global', text: 'Presencia en múltiples países con soluciones adaptadas a cada territorio.' },
+  {
+    icon: <MdFormatPaint />,
+    title: 'Sensores IoT',
+    text: 'Datos de suelo y ambiente capturados en tiempo real para una agricultura basada en evidencia.'
+  },
+  {
+    icon: <FaSatellite />,
+    title: 'Imágenes Satelitales',
+    text: 'Monitorea vigor vegetal, estrés hídrico y variabilidad espacial desde el espacio.'
+  },
+  {
+    icon: <MdDocumentScanner />,
+    title: 'Trazabilidad Operativa',
+    text: 'Registra labores, aplicaciones e inspecciones para una operación más organizada y transparente.'
+  },
+  {
+    icon: <BsFilePerson />,
+    title: 'Agente AI',
+    text: 'Transforma datos complejos en respuestas, alertas y recomendaciones accionables.'
+  },
 ]
 
 export default function About() {
@@ -17,26 +36,22 @@ export default function About() {
         <div className="about__grid">
           {/* Text side */}
           <div className="about__text">
-            <span className="section-tag">Quiénes somos</span>
+            <span className="section-tag">¿Cómo lo hacemos?</span>
             <h2 className="section-title">
-              Impulsamos la <span>agricultura</span><br />del mañana
+              Una plataforma.<br /> <span>Tres fuentes de datos.</span><br />Un agente inteligente.
             </h2>
             <p className="section-subtitle">
-              ORUS Agriculture es una empresa líder en innovación agrícola, fundada con la misión de transformar el sector agropecuario a través de la tecnología, el conocimiento y la colaboración estratégica.
-            </p>
+              Desde el suelo hasta el satélite, ORUS conecta las principales fuentes de información agrícola para ofrecer una visión integral de lo que ocurre en cada hectárea.</p>
             <p className="about__body">
-              Nacimos de la convicción de que el campo merece las mejores herramientas. Desde el análisis predictivo del clima hasta la trazabilidad completa de la cadena de suministro, ofrecemos soluciones integrales que empoderan a productores, exportadores y distribuidores en toda Latinoamérica.
-            </p>
-            <p className="about__body">
-              Nuestra red de especialistas, investigadores y aliados estratégicos nos permite adaptarnos a los desafíos únicos de cada región, garantizando resultados medibles y un impacto positivo duradero en cada cosecha.
+              Nuestro agente inteligente interpreta estos datos y los convierte en acciones concretas, facilitando el monitoreo, la comunicación y la toma de decisiones en tiempo real.
             </p>
             <div className="about__stats">
               <div className="about__stat">
-                <span className="about__stat-num">+12</span>
-                <span className="about__stat-label">Países activos</span>
+                <span className="about__stat-num">+120</span>
+                <span className="about__stat-label">Hectáreas activas</span>
               </div>
               <div className="about__stat">
-                <span className="about__stat-num">+5K</span>
+                <span className="about__stat-num">+15</span>
                 <span className="about__stat-label">Productores aliados</span>
               </div>
               <div className="about__stat">
@@ -50,25 +65,13 @@ export default function About() {
           <div className="about__collage">
             <div className="about__img-main">
               <img
-                src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=800&q=80"
+                src="/img/Recursos/orionMockup3.png"
                 alt="Campo agrícola ORUS"
-              />
-            </div>
-            <div className="about__img-sm about__img-sm--1">
-              <img
-                src="https://images.unsplash.com/photo-1585914641050-fa9883c4e21c?w=400&q=80"
-                alt="Drone agrícola"
-              />
-            </div>
-            <div className="about__img-sm about__img-sm--2">
-              <img
-                src="https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?w=400&q=80"
-                alt="Cosecha"
               />
             </div>
             <div className="about__badge">
               <FaLeaf className="about__badge-icon" />
-              <span>Agricultura Sostenible</span>
+              <span>Plataforma ORION</span>
             </div>
           </div>
         </div>

@@ -50,7 +50,7 @@ export default function Navbar() {
             rel="noopener noreferrer"
             className="btn btn-primary navbar__cta"
           >
-            Orion
+            Iniciar Sesión
           </a>
         </nav>
 
