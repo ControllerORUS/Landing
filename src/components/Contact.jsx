@@ -16,7 +16,7 @@ export default function Contact() {
   return (
     <section className="contact" id="contacto">
       <div className="container">
-        <div className="contact__header">
+        <div className="contact__header" data-aos="fade-up" data-aos-duration="900">
           <span className="section-tag">Contáctanos</span>
           <h2 className="section-title">¿Listo para <span>transformar</span><br />tu operación?</h2>
           <p className="section-subtitle">
@@ -26,7 +26,7 @@ export default function Contact() {
 
         <div className="contact__grid">
           {/* Info panel */}
-          <div className="contact__info">
+          <div className="contact__info" data-aos="fade-right" data-aos-duration="900" data-aos-delay="100">
             <h3>Información de contacto</h3>
             <p>Conecta con ORUS Agriculture y descubre cómo podemos llevar tu producción al siguiente nivel.</p>
 
@@ -56,7 +56,7 @@ export default function Contact() {
           </div>
 
           {/* Form */}
-          <div className="contact__form-wrap">
+          <div className="contact__form-wrap" data-aos="fade-left" data-aos-duration="900" data-aos-delay="200">
             {sent ? (
               <div className="contact__success">
                 <span className="contact__success-icon">✓</span>

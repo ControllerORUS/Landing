@@ -22,7 +22,7 @@ export default function Partners() {
   return (
     <section className="partners" id="aliados">
       <div className="container">
-        <div className="partners__header">
+        <div className="partners__header" data-aos="fade-up" data-aos-duration="900">
           <span className="section-tag">Nuestros aliados</span>
           <h2 className="section-title">Empresas que <span>confían</span> en ORUS</h2>
           <p className="section-subtitle">

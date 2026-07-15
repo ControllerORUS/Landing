@@ -45,7 +45,7 @@ export default function Team() {
   return (
     <section className="team" id="equipo">
       <div className="container">
-        <div className="team__header">
+        <div className="team__header" data-aos="fade-up" data-aos-duration="900">
           <span className="section-tag">El equipo</span>
           <h2 className="section-title">Las personas detrás de <span>ORUS</span></h2>
           <p className="section-subtitle">
@@ -55,7 +55,7 @@ export default function Team() {
 
         <div className="team__grid">
           {team.map((member, i) => (
-            <div key={i} className="team__card">
+            <div key={i} className="team__card" data-aos="fade-up" data-aos-delay={i * 100} data-aos-duration="800">
               <div className="team__avatar-wrap">
                 <img
                   src={member.img}

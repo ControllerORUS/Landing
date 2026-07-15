@@ -4,6 +4,7 @@ import './Navbar.css'
 const links = [
   { href: '#inicio',    label: 'Inicio'    },
   { href: '#nosotros',  label: 'Nosotros'  },
+  { href: '#orion',     label: 'Orion'     },
   { href: '#servicios', label: 'Servicios' },
   { href: '#galeria',   label: 'Galería'   },
   { href: '#aliados',   label: 'Aliados'   },

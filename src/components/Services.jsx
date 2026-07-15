@@ -52,7 +52,7 @@ export default function Services() {
     <section className="services" id="servicios">
       <div className="services__bg-shape" />
       <div className="container">
-        <div className="services__header">
+        <div className="services__header" data-aos="fade-up" data-aos-duration="900">
           <span className="section-tag">Lo que hacemos</span>
           <h2 className="section-title">Soluciones que <span>transforman</span><br />el campo</h2>
           <p className="section-subtitle">
@@ -62,7 +62,7 @@ export default function Services() {
 
         <div className="services__grid">
           {services.map((s, i) => (
-            <div key={i} className="services__card" style={{ '--accent': s.color }}>
+            <div key={i} className="services__card" style={{ '--accent': s.color }} data-aos="fade-up" data-aos-delay={i * 80} data-aos-duration="800">
               <div className="services__card-icon">
                 {s.icon}
               </div>

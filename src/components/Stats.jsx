@@ -16,7 +16,7 @@ export default function Stats() {
       <div className="stats__bg" />
       <div className="container stats__grid">
         {stats.map((s, i) => (
-          <div key={i} className="stats__item">
+          <div key={i} className="stats__item" data-aos="fade-up" data-aos-delay={i * 100} data-aos-duration="800">
             <div className="stats__icon">{s.icon}</div>
             <div className="stats__value">
               <CountUp to={s.value} />{s.suffix}

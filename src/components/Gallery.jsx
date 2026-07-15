@@ -18,7 +18,7 @@ export default function Gallery() {
   return (
     <section className="gallery" id="galeria">
       <div className="container">
-        <div className="gallery__header">
+        <div className="gallery__header" data-aos="fade-up" data-aos-duration="900">
           <span className="section-tag">Galería</span>
           <h2 className="section-title">Nuestro campo, <span>nuestra pasión</span></h2>
           <p className="section-subtitle">
@@ -32,6 +32,9 @@ export default function Gallery() {
               key={i}
               className={`gallery__item${p.span === 'wide' ? ' gallery__item--wide' : ''}`}
               onClick={() => setLightbox(p)}
+              data-aos="zoom-in"
+              data-aos-delay={i * 60}
+              data-aos-duration="700"
             >
               <img src={p.src} alt={p.alt} loading="lazy" />
               <div className="gallery__item-overlay">
