@@ -1,0 +1,119 @@
+/* ============================================================
+   AI Agent Section — ORUS Agriculture
+   ============================================================ */
+
+.ai-agent {
+  position: relative;
+  padding: 8rem 0 7rem;
+  background: var(--text-dark);
+  overflow: hidden;
+}
+
+.ai-agent__bg {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 55% 60% at 0% 50%, rgba(34,197,94,.08) 0%, transparent 55%),
+    radial-gradient(ellipse 40% 40% at 100% 20%, rgba(34,197,94,.05) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+/* ── Layout ── */
+.ai-agent__layout {
+  display: grid;
+  grid-template-columns: 1fr 1.1fr;
+  gap: 6rem;
+  align-items: start;
+  position: relative;
+  z-index: 1;
+}
+
+/* ── Text column ── */
+.ai-agent__tag {
+  color: var(--accent) !important;
+  border-color: rgba(34,197,94,.3) !important;
+  background: rgba(34,197,94,.08) !important;
+}
+
+.ai-agent__title {
+  font-size: clamp(2rem, 3.8vw, 3.2rem);
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -.02em;
+  color: var(--white);
+  margin: 1rem 0 1.5rem;
+}
+
+.ai-agent__title span { color: var(--accent); }
+
+.ai-agent__desc {
+  font-size: .97rem;
+  color: rgba(255,255,255,.6);
+  line-height: 1.8;
+  margin-bottom: 2.5rem;
+  max-width: 420px;
+}
+
+.ai-agent__cta {
+  align-self: flex-start;
+}
+
+/* ── Benefits ── */
+.ai-agent__benefits {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.ai-agent__benefit {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.2rem;
+  padding: 1.5rem;
+  border-radius: var(--radius-md);
+  border: 1px solid rgba(255,255,255,.07);
+  background: rgba(255,255,255,.03);
+  transition: background .3s ease, border-color .3s ease;
+}
+.ai-agent__benefit:hover {
+  background: rgba(34,197,94,.07);
+  border-color: rgba(34,197,94,.2);
+}
+
+.ai-agent__benefit-icon {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(34,197,94,.12);
+  border-radius: var(--radius-sm);
+  font-size: 1.1rem;
+  color: var(--accent);
+  margin-top: .05rem;
+}
+
+.ai-agent__benefit-title {
+  font-size: .97rem;
+  font-weight: 700;
+  color: var(--white);
+  margin-bottom: .3rem;
+}
+
+.ai-agent__benefit-text {
+  font-size: .87rem;
+  color: rgba(255,255,255,.5);
+  line-height: 1.65;
+}
+
+/* ── Responsive ── */
+@media (max-width: 1024px) {
+  .ai-agent__layout { grid-template-columns: 1fr; gap: 3.5rem; }
+  .ai-agent__desc { max-width: 100%; }
+}
+@media (max-width: 640px) {
+  .ai-agent { padding: 5rem 0 4rem; }
+  .ai-agent__title { font-size: 2rem; }
+  .ai-agent__benefit { padding: 1.2rem 1rem; }
+}

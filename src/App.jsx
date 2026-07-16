@@ -5,7 +5,8 @@ import Navbar   from './components/Navbar'
 import Hero     from './components/Hero'
 import About    from './components/About'
 import Orion    from './components/Orion'
-import Services from './components/Services'
+import Products from './components/Products'
+import AIAgent  from './components/AIAgent'
 import Team     from './components/Team'
 import Gallery  from './components/Gallery'
 import Partners from './components/Partners'
@@ -15,10 +16,10 @@ import Footer   from './components/Footer'
 export default function App() {
   useEffect(() => {
     AOS.init({
-      duration: 900,
+      duration: 800,
       easing: 'ease-out-cubic',
-      once: false,
-      offset: 80,
+      once: true,
+      offset: 0,
       delay: 0,
     })
   }, [])
@@ -30,7 +31,8 @@ export default function App() {
         <Hero />
         <About />
         <Orion />
-        <Services />
+        <Products />
+        <AIAgent />
         <Team />
         <Gallery />
         <Partners />
