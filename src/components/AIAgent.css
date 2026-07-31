@@ -18,17 +18,22 @@
   pointer-events: none;
 }
 
-/* ── Layout ── */
+/* ── Layout: text+benefits left | phone right ── */
 .ai-agent__layout {
   display: grid;
-  grid-template-columns: 1fr 1.1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 6rem;
-  align-items: start;
+  align-items: center;
   position: relative;
   z-index: 1;
 }
 
-/* ── Text column ── */
+/* ── Left column ── */
+.ai-agent__left {
+  display: flex;
+  flex-direction: column;
+}
+
 .ai-agent__tag {
   color: var(--accent) !important;
   border-color: rgba(34,197,94,.3) !important;
@@ -50,26 +55,26 @@
   font-size: .97rem;
   color: rgba(255,255,255,.6);
   line-height: 1.8;
-  margin-bottom: 2.5rem;
-  max-width: 420px;
+  margin-bottom: 2rem;
 }
 
 .ai-agent__cta {
   align-self: flex-start;
+  margin-bottom: 2.5rem;
 }
 
 /* ── Benefits ── */
 .ai-agent__benefits {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
 }
 
 .ai-agent__benefit {
   display: flex;
   align-items: flex-start;
-  gap: 1.2rem;
-  padding: 1.5rem;
+  gap: 1rem;
+  padding: 1.2rem;
   border-radius: var(--radius-md);
   border: 1px solid rgba(255,255,255,.07);
   background: rgba(255,255,255,.03);
@@ -82,38 +87,80 @@
 
 .ai-agent__benefit-icon {
   flex-shrink: 0;
-  width: 40px;
-  height: 40px;
+  width: 36px;
+  height: 36px;
   display: flex;
   align-items: center;
   justify-content: center;
   background: rgba(34,197,94,.12);
   border-radius: var(--radius-sm);
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: var(--accent);
   margin-top: .05rem;
 }
 
 .ai-agent__benefit-title {
-  font-size: .97rem;
+  font-size: .9rem;
   font-weight: 700;
   color: var(--white);
-  margin-bottom: .3rem;
+  margin-bottom: .25rem;
 }
 
 .ai-agent__benefit-text {
-  font-size: .87rem;
+  font-size: .82rem;
   color: rgba(255,255,255,.5);
-  line-height: 1.65;
+  line-height: 1.6;
 }
+
+/* ── Phone column ── */
+.ai-agent__phone-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* The screenshot already includes its own phone mockup and dark
+   background, so it's shown as-is (no extra bezel/frame) with a
+   soft drop-shadow for depth against the section background. */
+.ai-agent__phone-img {
+  width: 100%;
+  max-width: 380px;
+  display: block;
+  filter: drop-shadow(0 24px 48px rgba(0,0,0,.45));
+}
+
+.ai-agent__phone-placeholder {
+  width: 100%;
+  max-width: 380px;
+  min-height: 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: .75rem;
+  padding: 2rem;
+  border-radius: var(--radius-lg);
+  border: 1px dashed rgba(255,255,255,.2);
+  background: rgba(255,255,255,.03);
+  color: rgba(255,255,255,.4);
+  text-align: center;
+}
+.ai-agent__phone-placeholder span { font-size: 3rem; }
+.ai-agent__phone-placeholder p { font-size: .97rem; font-weight: 600; color: rgba(255,255,255,.6); }
+.ai-agent__phone-placeholder small { font-size: .78rem; line-height: 1.6; }
 
 /* ── Responsive ── */
 @media (max-width: 1024px) {
   .ai-agent__layout { grid-template-columns: 1fr; gap: 3.5rem; }
-  .ai-agent__desc { max-width: 100%; }
+  .ai-agent__phone-col { order: -1; }
+  .ai-agent__phone-img,
+  .ai-agent__phone-placeholder { max-width: 320px; }
 }
 @media (max-width: 640px) {
   .ai-agent { padding: 5rem 0 4rem; }
   .ai-agent__title { font-size: 2rem; }
-  .ai-agent__benefit { padding: 1.2rem 1rem; }
+  .ai-agent__benefits { grid-template-columns: 1fr; }
+  .ai-agent__benefit { padding: 1rem; }
+  .ai-agent__phone-img,
+  .ai-agent__phone-placeholder { max-width: 260px; }
 }

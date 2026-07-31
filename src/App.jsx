@@ -5,10 +5,11 @@ import Navbar   from './components/Navbar'
 import Hero     from './components/Hero'
 import About    from './components/About'
 import Orion    from './components/Orion'
-import Products from './components/Products'
+import Services from './components/Services'
 import AIAgent  from './components/AIAgent'
 import Team     from './components/Team'
 import Gallery  from './components/Gallery'
+import Reviews  from './components/Reviews'
 import Partners from './components/Partners'
 import Contact  from './components/Contact'
 import Footer   from './components/Footer'
@@ -31,10 +32,11 @@ export default function App() {
         <Hero />
         <About />
         <Orion />
-        <Products />
+        <Services />
         <AIAgent />
         <Team />
         <Gallery />
+        <Reviews />
         <Partners />
         <Contact />
       </main>

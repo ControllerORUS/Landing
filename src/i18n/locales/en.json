@@ -1,0 +1,263 @@
+{
+  "nav": {
+    "inicio": "Home",
+    "nosotros": "About",
+    "orion": "Orion",
+    "servicios": "Services",
+    "equipo": "Team",
+    "galeria": "Gallery",
+    "aliados": "Partners",
+    "contacto": "Contact",
+    "cta": "Log In",
+    "langToggle": "ES",
+    "langLabel": "Change language",
+    "menuLabel": "Open menu"
+  },
+  "hero": {
+    "tag": "Precision Agriculture",
+    "title": "Agricultural decisions \nbacked by data",
+    "subtitle": "Real-time monitoring, operational traceability and multispectral analysis, powered by Artificial Intelligence from a single platform.",
+    "cta1": "ORION",
+    "cta2": "Book a demo"
+  },
+  "about": {
+    "tag": "How we do it?",
+    "title1": "One platform.",
+    "titleSpan": "Three data sources.",
+    "title2": "One intelligent agent.",
+    "subtitle": "From soil to satellite, ORUS connects the main agricultural data sources to offer a comprehensive view of what happens in every hectare.",
+    "pillars": [
+      {
+        "num": "1",
+        "title": "Platform",
+        "subtitle": "ORION — Data Hub",
+        "text": "A single interface that centralizes all information from your agricultural operation in real time, accessible from any device."
+      },
+      {
+        "num": "3",
+        "title": "Data Sources",
+        "subtitle": "sensors, satellites & traceability",
+        "text": "Field sensors, multispectral satellite imagery and operational records converge to give you a comprehensive view of every hectare."
+      },
+      {
+        "num": "1",
+        "title": "Intelligent Agent",
+        "subtitle": "Conversational & proactive AI",
+        "text": "Automatically interprets all data and turns it into alerts, recommendations and concrete actions exactly when you need them."
+      }
+    ],
+    "stats": [
+      { "label": "Active hectares" },
+      { "label": "Allied producers" },
+      { "label": "Satisfaction" }
+    ]
+  },
+  "orion": {
+    "tag": "Discover the platform",
+    "title1": "ORION: the center of",
+    "titleAccent": "agricultural analysis & decision-making.",
+    "desc": "ORION is ORUS's platform that integrates all data sources from your operation in one place. Designed for producers and technical teams who need to make fast, informed and traceable decisions.",
+    "bullets": [
+      "Visualize the status of your crops in real time",
+      "Cross-reference sensor, satellite and operational data",
+      "Generate automatic reports by plot or campaign",
+      "Access from any device, anywhere",
+      "Integrate your team and centralize field communication"
+    ],
+    "cta": "Explore ORION"
+  },
+  "services": {
+    "tag": "What we do",
+    "title1": "Building, together with the field,",
+    "titleSpan": "the future",
+    "title2": "of agriculture",
+    "subtitle": "We're a young team combining engineering and agronomy to develop technology solutions alongside real producers. Every project we take on helps us grow and improve what we offer.",
+    "detailsBtn": "View details",
+    "modalClose": "Close",
+    "items": [
+      {
+        "title": "IoT Sensors",
+        "tag": "Technology",
+        "text": "Field sensors that monitor moisture, temperature and nutrients in real time, in continuous development alongside the producers who use them.",
+        "details": "We're rolling out an IoT sensor network that connects the field with the ORION platform. We measure soil moisture, temperature, electrical conductivity, pH and local weather conditions, and we iterate on each device's design based on direct feedback from the people using them on their plots."
+      },
+      {
+        "title": "Operational Traceability",
+        "tag": "Operations",
+        "text": "Digital record of field tasks, applications and inputs, built to grow alongside each partner's operation.",
+        "details": "We offer a digital record of field activities (tasks, applications, inputs) so every producer has clear traceability of their operation. We keep adding features based on the real cases we work on with our first partners."
+      },
+      {
+        "title": "Satellite Imagery",
+        "tag": "Satellite",
+        "text": "Satellite imagery processing to help identify early water stress and crop variability.",
+        "details": "We process multispectral satellite imagery to generate vegetation indices (like NDVI) and spatial variability maps. It's a capability we keep refining, aiming to make it ever more precise and useful for field decision-making."
+      }
+    ]
+  },
+  "aiagent": {
+    "tag": "Artificial Intelligence",
+    "title1": "Your agricultural agent",
+    "titleSpan": "always on.",
+    "desc": "ORUS's AI agent doesn't just analyze data: it acts. It learns your patterns, anticipates problems and delivers the right information at the right moment so you never lose control of your operation.",
+    "cta": "Book a demo",
+    "whatsappAlt": "WhatsApp demo conversation with ORUS agent",
+    "whatsappPlaceholderTitle": "WhatsApp demo",
+    "whatsappPlaceholderHint": "Add the image at",
+    "benefits": [
+      {
+        "title": "Smart notifications",
+        "text": "Receive personalized alerts when your crop data exceeds critical thresholds, before the problem escalates."
+      },
+      {
+        "title": "Data-driven recommendations",
+        "text": "Get concrete irrigation, fertilization or agronomic intervention suggestions backed by your field history."
+      },
+      {
+        "title": "Automated monitoring",
+        "text": "Automate crop surveillance 24/7 without manually reviewing each data point or report."
+      },
+      {
+        "title": "Smarter decisions",
+        "text": "Integrate information from sensors, satellites and operations to make decisions with greater context and less uncertainty."
+      }
+    ]
+  },
+  "team": {
+    "tag": "The team",
+    "title1": "The people behind",
+    "titleSpan": "ORUS",
+    "subtitle": "A multidisciplinary Colombian team combining engineering, agronomy and entrepreneurship to transform farming.",
+    "members": [
+      {
+        "name": "Daniel Peña",
+        "role": "CEO",
+        "education": "BE. Electronics Eng. · ME. Microelectronics",
+        "university": "Universidad de los Andes"
+      },
+      {
+        "name": "Gabriel Dicelis",
+        "role": "CTO",
+        "education": "BE. Systems Engineering",
+        "university": "Universidad de los Andes"
+      },
+      {
+        "name": "Sebastian Rubi",
+        "role": "CFO",
+        "education": "BSc. Economics",
+        "university": "Universidad Nacional"
+      },
+      {
+        "name": "Santiago Gómez",
+        "role": "Software Developer",
+        "education": "Software Analysis and Development",
+        "university": "Servicio Nacional de Aprendizaje (SENA)"
+      },
+      {
+        "name": "David Cantor",
+        "role": "Software Developer",
+        "education": "Systems & Computer Engineering",
+        "university": "Universidad de los Andes"
+      },
+      {
+        "name": "Mateo Jaimes",
+        "role": "Software Developer",
+        "education": "Systems & Computer Engineering",
+        "university": "Universidad de los Andes"
+      },
+      {
+        "name": "Daniel Gómez",
+        "role": "Software Developer",
+        "education": "Systems & Computer Engineering",
+        "university": "Universidad de los Andes"
+      },
+      {
+        "name": "Martín Pérez",
+        "role": "Agronomist",
+        "education": "Agricultural Engineering",
+        "university": "Universidad Nacional de Colombia"
+      }
+    ]
+  },
+  "gallery": {
+    "tag": "Gallery",
+    "title1": "Our field,",
+    "titleSpan": "our passion",
+    "subtitle": "A look at the fairs, events and spaces where ORUS Agriculture has been present.",
+    "openLabel": "View photos",
+    "closeLabel": "Close",
+    "prevLabel": "Previous photo",
+    "nextLabel": "Next photo",
+    "photosLabel": "photos",
+    "photoPending": "Photo pending upload",
+    "categories": [
+      { "title": "Fairs" },
+      { "title": "Business events" },
+      { "title": "Trainings" }
+    ]
+  },
+  "partners": {
+    "tag": "Our partners",
+    "title1": "Companies that",
+    "titleSpan": "trust",
+    "title2": "ORUS",
+    "subtitle": "A network of strategic partners that strengthens our ecosystem and expands the impact of every agricultural project.",
+    "logoAlt": "ORUS partner logo",
+    "ctaText": "Does your company want to be part of the ORUS ecosystem?",
+    "ctaLink": "Contact us →"
+  },
+  "contact": {
+    "tag": "Contact us",
+    "title1": "Ready to",
+    "titleSpan": "transform",
+    "title2": "your operation?",
+    "subtitle": "Our team of experts is available to advise you at no cost and with no commitment.",
+    "infoTitle": "Contact information",
+    "infoText": "Connect with ORUS Agriculture and discover how we can take your production to the next level.",
+    "location": "Colombia, Bogotá",
+    "phone": "+57 320 340 7431",
+    "labelName": "Full name *",
+    "placeholderName": "Your name",
+    "labelEmail": "Email address *",
+    "placeholderEmail": "you@email.com",
+    "labelSubject": "Subject",
+    "placeholderSubject": "How can we help you?",
+    "labelMessage": "Message *",
+    "placeholderMessage": "Tell us about your project or agricultural need...",
+    "submitBtn": "Send message",
+    "sending": "Sending...",
+    "successTitle": "Message sent!",
+    "successText": "Thank you for reaching out. Our team will respond within 24 hours.",
+    "successBtn": "Send another message",
+    "errorText": "An error occurred while sending your message. Please try again or write to us directly.",
+    "validationName": "Please enter your name.",
+    "validationEmail": "Please enter a valid email.",
+    "validationMessage": "Please write your message."
+  },
+  "reviews": {
+    "tag": "Testimonials",
+    "title1": "What our",
+    "titleSpan": "clients say",
+    "subtitle": "Producers and technicians who have already transformed their operation with ORUS Agriculture."
+  },
+  "footer": {
+    "tagline": "Smart agriculture for the 21st century.",
+    "empresa": "Company",
+    "legal": "Legal",
+    "newsletter": "Newsletter",
+    "newsletterText": "Receive the latest agtech news and articles.",
+    "newsletterPlaceholder": "you@email.com",
+    "newsletterBtn": "Subscribe",
+    "rights": "All rights reserved.",
+    "links": {
+      "nosotros": "About",
+      "servicios": "Services",
+      "galeria": "Gallery",
+      "aliados": "Partners",
+      "blog": "Blog",
+      "privacidad": "Privacy policy",
+      "terminos": "Terms of use",
+      "cookies": "Cookies"
+    }
+  }
+}

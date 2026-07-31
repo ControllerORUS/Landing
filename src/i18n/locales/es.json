@@ -1,0 +1,263 @@
+{
+  "nav": {
+    "inicio": "Inicio",
+    "nosotros": "Nosotros",
+    "orion": "Orion",
+    "servicios": "Servicios",
+    "equipo": "Equipo",
+    "galeria": "Galería",
+    "aliados": "Aliados",
+    "contacto": "Contacto",
+    "cta": "Iniciar Sesión",
+    "langToggle": "EN",
+    "langLabel": "Cambiar idioma",
+    "menuLabel": "Abrir menú"
+  },
+  "hero": {
+    "tag": "Agricultura de Precisión",
+    "title": "Decisiones agrícolas \nrespaldadas por datos",
+    "subtitle": "Monitoreo en tiempo real, trazabilidad operativa y análisis multiespectral, potenciados por Inteligencia Artificial desde una sola plataforma.",
+    "cta1": "ORION",
+    "cta2": "Agenda una demo"
+  },
+  "about": {
+    "tag": "¿Cómo lo hacemos?",
+    "title1": "Una plataforma.",
+    "titleSpan": "Tres fuentes de datos.",
+    "title2": "Un agente inteligente.",
+    "subtitle": "Desde el suelo hasta el satélite, ORUS conecta las principales fuentes de información agrícola para ofrecer una visión integral de lo que ocurre en cada hectárea.",
+    "pillars": [
+      {
+        "num": "1",
+        "title": "Plataforma",
+        "subtitle": "ORION — Central de datos",
+        "text": "Una sola interfaz que centraliza toda la información de tu operación agrícola en tiempo real, accesible desde cualquier dispositivo."
+      },
+      {
+        "num": "3",
+        "title": "Fuentes de Datos",
+        "subtitle": "sensores, satélites y trazabilidad",
+        "text": "Sensores en campo, imágenes satelitales multiespectrales y registros operativos convergen para darte una visión integral de cada hectárea."
+      },
+      {
+        "num": "1",
+        "title": "Agente Inteligente",
+        "subtitle": "IA conversacional y proactiva",
+        "text": "Interpreta automáticamente todos los datos y los convierte en alertas, recomendaciones y acciones concretas cuando más las necesitas."
+      }
+    ],
+    "stats": [
+      { "label": "Hectáreas activas" },
+      { "label": "Productores aliados" },
+      { "label": "Satisfacción" }
+    ]
+  },
+  "orion": {
+    "tag": "Conoce la plataforma",
+    "title1": "ORION: el centro de",
+    "titleAccent": "análisis y decisión agrícola.",
+    "desc": "ORION es la plataforma de ORUS que integra en un solo lugar todas las fuentes de datos de tu operación. Diseñada para productores y equipos técnicos que necesitan tomar decisiones rápidas, informadas y trazables.",
+    "bullets": [
+      "Visualiza el estado de tus cultivos en tiempo real",
+      "Cruza datos de sensores, satélites y operaciones",
+      "Genera reportes automáticos por lote o campaña",
+      "Accede desde cualquier dispositivo, en cualquier lugar",
+      "Integra tu equipo y centraliza la comunicación de campo"
+    ],
+    "cta": "Explorar ORION"
+  },
+  "services": {
+    "tag": "Lo que hacemos",
+    "title1": "Construyendo, junto al campo,",
+    "titleSpan": "el futuro",
+    "title2": "de la agricultura",
+    "subtitle": "Somos un equipo joven que combina ingeniería y agronomía para desarrollar soluciones tecnológicas junto a productores reales. Cada proyecto nos ayuda a crecer y a mejorar lo que ofrecemos.",
+    "detailsBtn": "Ver detalles",
+    "modalClose": "Cerrar",
+    "items": [
+      {
+        "title": "Sensores IoT",
+        "tag": "Tecnología",
+        "text": "Sensores de campo que monitorean humedad, temperatura y nutrientes en tiempo real, en desarrollo continuo junto a los productores que los usan.",
+        "details": "Estamos desplegando una red de sensores IoT que conecta el campo con la plataforma ORION. Medimos humedad del suelo, temperatura, conductividad eléctrica, pH y condiciones climáticas locales, e iteramos el diseño de cada dispositivo a partir de la retroalimentación directa de quienes los usan en sus lotes."
+      },
+      {
+        "title": "Trazabilidad Operativa",
+        "tag": "Operaciones",
+        "text": "Registro digital de labores, aplicaciones e insumos de campo, pensado para crecer junto a la operación de cada aliado.",
+        "details": "Ofrecemos un registro digital de las actividades de campo (labores, aplicaciones, insumos) para que cada productor tenga trazabilidad clara de su operación. Seguimos sumando funciones a partir de los casos reales en los que trabajamos con nuestros primeros aliados."
+      },
+      {
+        "title": "Imágenes Satelitales",
+        "tag": "Satélite",
+        "text": "Procesamiento de imágenes satelitales para apoyar la identificación temprana de estrés hídrico y variabilidad de cultivos.",
+        "details": "Procesamos imágenes satelitales multiespectrales para generar índices de vegetación (como NDVI) y mapas de variabilidad espacial. Es una capacidad que seguimos perfeccionando, con el objetivo de que cada vez sea más precisa y útil para la toma de decisiones en campo."
+      }
+    ]
+  },
+  "aiagent": {
+    "tag": "Inteligencia Artificial",
+    "title1": "Tu agente agrícola",
+    "titleSpan": "siempre activo.",
+    "desc": "El agente de IA de ORUS no solo analiza datos: actúa. Aprende de tus patrones, anticipa problemas y te entrega la información correcta en el momento exacto para que nunca pierdas el control de tu operación.",
+    "cta": "Agenda una demo",
+    "whatsappAlt": "Demo conversación WhatsApp con agente ORUS",
+    "whatsappPlaceholderTitle": "WhatsApp demo",
+    "whatsappPlaceholderHint": "Agrega la imagen en",
+    "benefits": [
+      {
+        "title": "Notificaciones inteligentes",
+        "text": "Recibe alertas personalizadas cuando los datos de tus cultivos superan umbrales críticos, antes de que el problema escale."
+      },
+      {
+        "title": "Recomendaciones basadas en datos",
+        "text": "Obtén sugerencias concretas de riego, fertilización o intervención agronómica respaldadas por el historial de tu campo."
+      },
+      {
+        "title": "Monitoreo automatizado",
+        "text": "Automatiza la vigilancia de tus cultivos 24/7 sin necesidad de revisar manualmente cada dato o reporte."
+      },
+      {
+        "title": "Decisiones más inteligentes",
+        "text": "Integra información de sensores, satélites y operaciones para tomar decisiones con mayor contexto y menor incertidumbre."
+      }
+    ]
+  },
+  "team": {
+    "tag": "El equipo",
+    "title1": "Las personas detrás de",
+    "titleSpan": "ORUS",
+    "subtitle": "Un equipo multidisciplinar colombiano que combina ingeniería, agronomía y emprendimiento para transformar el campo.",
+    "members": [
+      {
+        "name": "Daniel Peña",
+        "role": "CEO",
+        "education": "BE. Ing. Electrónica · ME. Microelectrónica",
+        "university": "Universidad de los Andes"
+      },
+      {
+        "name": "Gabriel Dicelis",
+        "role": "CTO",
+        "education": "BE. Ing. Sistemas",
+        "university": "Universidad de los Andes"
+      },
+      {
+        "name": "Sebastian Rubi",
+        "role": "CFO",
+        "education": "BSc. Economía",
+        "university": "Universidad Nacional"
+      },
+      {
+        "name": "Santiago Gómez",
+        "role": "Desarrollador de Software",
+        "education": "Análisis y Desarrollo de Software",
+        "university": "Servicio Nacional de Aprendizaje (SENA)"
+      },
+      {
+        "name": "David Cantor",
+        "role": "Desarrollador de Software",
+        "education": "Ing. Sistemas y Computación",
+        "university": "Universidad de los Andes"
+      },
+      {
+        "name": "Mateo Jaimes",
+        "role": "Desarrollador de Software",
+        "education": "Ing. Sistemas y Computación",
+        "university": "Universidad de los Andes"
+      },
+      {
+        "name": "Daniel Gómez",
+        "role": "Desarrollador de Software",
+        "education": "Ing. Sistemas y Computación",
+        "university": "Universidad de los Andes"
+      },
+      {
+        "name": "Martín Pérez",
+        "role": "Agrónomo",
+        "education": "Ing. Agrícola",
+        "university": "Universidad Nacional de Colombia"
+      }
+    ]
+  },
+  "gallery": {
+    "tag": "Galería",
+    "title1": "Nuestro campo,",
+    "titleSpan": "nuestra pasión",
+    "subtitle": "Un vistazo a las ferias, eventos y espacios donde ORUS Agriculture ha estado presente.",
+    "openLabel": "Ver fotos",
+    "closeLabel": "Cerrar",
+    "prevLabel": "Foto anterior",
+    "nextLabel": "Foto siguiente",
+    "photosLabel": "fotos",
+    "photoPending": "Foto pendiente de cargar",
+    "categories": [
+      { "title": "Ferias" },
+      { "title": "Eventos empresariales" },
+      { "title": "Capacitaciones" }
+    ]
+  },
+  "partners": {
+    "tag": "Nuestros aliados",
+    "title1": "Empresas que",
+    "titleSpan": "confían",
+    "title2": "en ORUS",
+    "subtitle": "Una red de socios estratégicos que fortalece nuestro ecosistema y amplía el impacto de cada proyecto agrícola.",
+    "logoAlt": "Logo de aliado ORUS",
+    "ctaText": "¿Tu empresa quiere ser parte del ecosistema ORUS?",
+    "ctaLink": "Contáctanos →"
+  },
+  "contact": {
+    "tag": "Contáctanos",
+    "title1": "¿Listo para",
+    "titleSpan": "transformar",
+    "title2": "tu operación?",
+    "subtitle": "Nuestro equipo de expertos está disponible para asesorarte sin costo y sin compromiso.",
+    "infoTitle": "Información de contacto",
+    "infoText": "Conecta con ORUS Agriculture y descubre cómo podemos llevar tu producción al siguiente nivel.",
+    "location": "Colombia, Bogotá",
+    "phone": "+57 320 340 7431",
+    "labelName": "Nombre completo *",
+    "placeholderName": "Tu nombre",
+    "labelEmail": "Correo electrónico *",
+    "placeholderEmail": "tu@correo.com",
+    "labelSubject": "Asunto",
+    "placeholderSubject": "¿En qué podemos ayudarte?",
+    "labelMessage": "Mensaje *",
+    "placeholderMessage": "Cuéntanos sobre tu proyecto o necesidad agrícola...",
+    "submitBtn": "Enviar mensaje",
+    "sending": "Enviando...",
+    "successTitle": "¡Mensaje enviado!",
+    "successText": "Gracias por contactarnos. Nuestro equipo te responderá en menos de 24 horas.",
+    "successBtn": "Enviar otro mensaje",
+    "errorText": "Ocurrió un error al enviar el mensaje. Por favor inténtalo de nuevo o escríbenos directamente.",
+    "validationName": "Por favor ingresa tu nombre.",
+    "validationEmail": "Por favor ingresa un correo válido.",
+    "validationMessage": "Por favor escribe tu mensaje."
+  },
+  "reviews": {
+    "tag": "Testimonios",
+    "title1": "Lo que dicen",
+    "titleSpan": "nuestros clientes",
+    "subtitle": "Productores y técnicos que ya transformaron su operación con ORUS Agriculture."
+  },
+  "footer": {
+    "tagline": "Agricultura inteligente para el siglo XXI.",
+    "empresa": "Empresa",
+    "legal": "Legal",
+    "newsletter": "Newsletter",
+    "newsletterText": "Recibe las últimas novedades y artículos sobre agtech.",
+    "newsletterPlaceholder": "tu@correo.com",
+    "newsletterBtn": "Suscribirse",
+    "rights": "Todos los derechos reservados.",
+    "links": {
+      "nosotros": "Nosotros",
+      "servicios": "Servicios",
+      "galeria": "Galería",
+      "aliados": "Aliados",
+      "blog": "Blog",
+      "privacidad": "Política de privacidad",
+      "terminos": "Términos de uso",
+      "cookies": "Cookies"
+    }
+  }
+}

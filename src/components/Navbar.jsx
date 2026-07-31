@@ -1,20 +1,23 @@
 import React, { useState, useEffect } from 'react'
+import { useTranslation } from 'react-i18next'
 import './Navbar.css'
 
-const links = [
-  { href: '#inicio',    label: 'Inicio'    },
-  { href: '#nosotros',  label: 'Nosotros'  },
-  { href: '#orion',     label: 'Orion'     },
-  { href: '#servicios', label: 'Servicios' },
-  { href: '#galeria',   label: 'Galería'   },
-  { href: '#aliados',   label: 'Aliados'   },
-  { href: '#contacto',  label: 'Contacto'  },
-]
-
 export default function Navbar() {
+  const { t, i18n } = useTranslation()
   const [scrolled, setScrolled] = useState(false)
   const [open, setOpen]         = useState(false)
   const [active, setActive]     = useState('#inicio')
+
+  const links = [
+    { href: '#inicio',    label: t('nav.inicio')    },
+    { href: '#nosotros',  label: t('nav.nosotros')  },
+    { href: '#orion',     label: t('nav.orion')     },
+    { href: '#servicios', label: t('nav.servicios') },
+    { href: '#equipo',    label: t('nav.equipo')    },
+    { href: '#galeria',   label: t('nav.galeria')   },
+    { href: '#aliados',   label: t('nav.aliados')   },
+    { href: '#contacto',  label: t('nav.contacto')  },
+  ]
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 60)
@@ -25,6 +28,12 @@ export default function Navbar() {
   const handleLink = (href) => {
     setActive(href)
     setOpen(false)
+  }
+
+  const toggleLang = () => {
+    const next = i18n.language === 'es' ? 'en' : 'es'
+    i18n.changeLanguage(next)
+    localStorage.setItem('orus_lang', next)
   }
 
   return (
@@ -45,19 +54,26 @@ export default function Navbar() {
               {l.label}
             </a>
           ))}
+          <button
+            className="navbar__lang"
+            onClick={toggleLang}
+            aria-label={t('nav.langLabel')}
+          >
+            {t('nav.langToggle')}
+          </button>
           <a
             href="https://orion.orusagro.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-primary navbar__cta"
           >
-            Iniciar Sesión
+            {t('nav.cta')}
           </a>
         </nav>
 
         <button
           className={`navbar__hamburger${open ? ' active' : ''}`}
-          aria-label="Abrir menú"
+          aria-label={t('nav.menuLabel')}
           onClick={() => setOpen(o => !o)}
         >
           <span /><span /><span />

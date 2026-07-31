@@ -74,6 +74,30 @@
 
 .navbar__cta { padding: .5rem 1.3rem; font-size: .85rem; }
 
+/* Language toggle */
+.navbar__lang {
+  background: transparent;
+  border: 1px solid rgba(255,255,255,.4);
+  color: var(--white);
+  font-size: .8rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+  padding: .3rem .75rem;
+  border-radius: var(--radius-pill);
+  cursor: pointer;
+  transition: var(--transition);
+  font-family: var(--font-mono);
+}
+.navbar.scrolled .navbar__lang {
+  border-color: var(--gray-300);
+  color: var(--text-dark);
+}
+.navbar__lang:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: rgba(34,197,94,.07);
+}
+
 .btn-orion-nav {
   display: inline-flex;
   align-items: center;
@@ -148,4 +172,5 @@
   .navbar__link { color: var(--text-dark) !important; font-size: 1.05rem; }
   .navbar__cta { width: 100%; justify-content: center; }
   .navbar__orion { width: 100%; justify-content: center; }
+  .navbar__lang { border-color: var(--gray-300) !important; color: var(--text-dark) !important; }
 }

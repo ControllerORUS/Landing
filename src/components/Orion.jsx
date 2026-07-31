@@ -1,15 +1,11 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 import './Orion.css'
 
-const bullets = [
-  'Visualiza el estado de tus cultivos en tiempo real',
-  'Cruza datos de sensores, satélites y operaciones',
-  'Genera reportes automáticos por lote o campaña',
-  'Accede desde cualquier dispositivo, en cualquier lugar',
-  'Integra tu equipo y centraliza la comunicación de campo',
-]
-
 export default function Orion() {
+  const { t } = useTranslation()
+  const bullets = t('orion.bullets', { returnObjects: true })
+
   return (
     <section className="orion" id="orion">
       <div className="orion__bg-glow" />
@@ -31,14 +27,12 @@ export default function Orion() {
 
           {/* ── Text column ── */}
           <div className="orion__text-col" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="150">
-            <span className="section-tag orion__tag">Conoce la plataforma</span>
+            <span className="section-tag orion__tag">{t('orion.tag')}</span>
             <h2 className="orion__title">
-              ORION: el centro de<br />
-              <span className="orion__title-accent">análisis y decisión agrícola.</span>
+              {t('orion.title1')}<br />
+              <span className="orion__title-accent">{t('orion.titleAccent')}</span>
             </h2>
-            <p className="orion__desc">
-              ORION es la plataforma de ORUS que integra en un solo lugar todas las fuentes de datos de tu operación. Diseñada para productores y equipos técnicos que necesitan tomar decisiones rápidas, informadas y trazables.
-            </p>
+            <p className="orion__desc">{t('orion.desc')}</p>
 
             <ul className="orion__bullets">
               {bullets.map((b, i) => (
@@ -58,7 +52,7 @@ export default function Orion() {
               data-aos-delay="700"
             >
               <img src="/img/logos/loguito.png" alt="" className="orion__cta-logo" />
-              Explorar ORION
+              {t('orion.cta')}
             </a>
           </div>
 

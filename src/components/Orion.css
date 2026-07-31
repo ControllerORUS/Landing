@@ -31,8 +31,8 @@
 /* ── Two-column layout ── */
 .orion__layout {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 6rem;
+  grid-template-columns: 1.6fr 1fr;
+  gap: 4rem;
   align-items: center;
 }
 
