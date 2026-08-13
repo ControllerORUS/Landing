@@ -27,7 +27,7 @@ export default function AIAgent() {
             </h2>
             <p className="ai-agent__desc">{t('aiagent.desc')}</p>
             <a
-              href="https://calendly.com/danielpc76/30min"
+              href="https://wa.me/573203407431"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-primary ai-agent__cta"
