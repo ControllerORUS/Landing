@@ -1,3 +1,126 @@
+/* Default model tag (in box) */
+.model-tag {
+  display: inline-block;
+  background: #111;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 0.06em 0.40em;
+  margin: 0 0.11em;
+  font-size: 1em;
+  letter-spacing: 0.04em;
+  vertical-align: middle;
+}
+
+/* Destacado especial en modelo negro, sombra y borde */
+.model-tag--black {
+  background: #111 !important;
+  color: #fff !important;
+  padding: 0.13em 0.55em;
+  margin: 0 0.12em;
+  border-radius: 9px;
+  font-size: 1em;
+  font-weight: 700;
+  display: inline-block;
+  border: 2px solid rgba(255,255,255,0.55);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.13);
+  vertical-align: baseline;
+}
+
+
+.services__details-list.carac .services__details-box {
+  background: #e5e7eb;
+  color: #444;
+}
+.services__details-label-carac {
+  color: #000000;
+}
+.services__details-list.suelo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1.2rem 0;
+  align-items: flex-start;
+}
+.services__details-list.suelo .services__details-box {
+  flex: 0 0 auto;
+  width: auto;
+  min-width: unset;
+  max-width: 100%;
+  margin-bottom: 0.6rem;
+}
+/* Estilos de labels para detalles y modelos */
+/* Título de variables ambientales y suelo en negro */
+.services__details-label {
+  color: #111;
+  font-size: 1.05rem;
+  font-family: var(--font-sans);
+  font-weight: 800;
+  margin-bottom: 0.1em;
+  letter-spacing: .01em;
+}
+.services__details-models {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+/* Estilo para modelos de detalle, consistente y sin sobrescritura de border */
+.services__details-model {
+  background: #fff;
+  color: #0a0a0a;
+  font-weight: 700;
+  border-radius: var(--radius-md, 14px);
+  padding: 1rem 1.5rem;
+  font-size: 1.03rem;
+  box-shadow: 0 2px 8px rgba(255,153,0,0.10);
+  display: inline-block;
+  line-height: 1.25;
+}
+.services__details-label-model {
+  color: #000000;
+  font-size: 1.08rem;
+  font-family: var(--font-sans);
+  font-weight: 900;
+  margin-bottom: 0.1em;
+}
+/* Boxes for variables disponibles in details */
+.services__details-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1.2rem 0;
+  align-items: flex-start;
+}
+
+/* Negro para texto de variables ambientales y suelo */
+.services__details-list .services__details-box,
+.services__details-list.suelo .services__details-box {
+  flex: 0 0 auto;
+  width: auto;
+  min-width: unset;
+  max-width: 100%;
+  margin-right: 0;
+  margin-bottom: 0.6rem;
+  color: #ffffff !important;
+}
+
+/* Estilo para la caja de detalles (usando colores y variables consistentes) */
+/* Estilo para la caja de detalles, fondo naranja */
+.services__details-box {
+  background: #6bcf3d; /* naranja */
+  color: var(--white, #fff);
+  border-radius: var(--radius-md, 14px);
+  padding: 0.32rem 0.77rem;
+  font-size: 0.87rem;
+  font-weight: 600;
+  letter-spacing: .02em;
+  box-shadow: 0 2px 8px rgba(34,197,94,0.07);
+  border: none;
+  display: inline-block;
+  width: fit-content;
+  min-width: 0;
+  margin-bottom: 0.1rem;
+}
 .services {
   padding: 7rem 0;
   background: var(--white);

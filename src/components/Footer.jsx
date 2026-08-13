@@ -8,11 +8,11 @@ const empresaHrefs = ['#nosotros', '#servicios', '#galeria', '#aliados', '#']
 const legalHrefs = ['#', '#', '#']
 
 const socials = [
-  { icon: <FaFacebook />,  href: '#', label: 'Facebook'  },
-  { icon: <FaInstagram />, href: '#', label: 'Instagram' },
-  { icon: <FaLinkedin />,  href: '#', label: 'LinkedIn'  },
-  { icon: <FaTwitter />,   href: '#', label: 'Twitter'   },
-  { icon: <FaYoutube />,   href: '#', label: 'YouTube'   },
+ /* { icon: <FaFacebook />,  href: '#', label: 'Facebook'  },*/
+  { icon: <FaInstagram />, href: 'https://www.instagram.com/orus.agro', label: 'Instagram' },
+  { icon: <FaLinkedin />,  href: 'https://www.linkedin.com/company/orus-agriculture/', label: 'LinkedIn'  },
+  /*{ icon: <FaTwitter />,   href: '#', label: 'Twitter'   },*/
+  /*{ icon: <FaYoutube />,   href: '#', label: 'YouTube'   },*/
 ]
 
 export default function Footer() {

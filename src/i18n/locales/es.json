@@ -16,7 +16,7 @@
   "hero": {
     "tag": "Agricultura de Precisión",
     "title": "Decisiones agrícolas \nrespaldadas por datos",
-    "subtitle": "Monitoreo en tiempo real, trazabilidad operativa y análisis multiespectral, potenciados por Inteligencia Artificial desde una sola plataforma.",
+    "subtitle": "Datos confiables. Decisiones inteligentes. Mejores resultados.",
     "cta1": "ORION",
     "cta2": "Agenda una demo"
   },
@@ -58,17 +58,17 @@
     "titleAccent": "análisis y decisión agrícola.",
     "desc": "ORION es la plataforma de ORUS que integra en un solo lugar todas las fuentes de datos de tu operación. Diseñada para productores y equipos técnicos que necesitan tomar decisiones rápidas, informadas y trazables.",
     "bullets": [
-      "Visualiza el estado de tus cultivos en tiempo real",
+      "Monitorea el estado de tus cultivos en tiempo real",
       "Cruza datos de sensores, satélites y operaciones",
-      "Genera reportes automáticos por lote o campaña",
+      "Genera reportes automáticos por campo o cultivo",
       "Accede desde cualquier dispositivo, en cualquier lugar",
       "Integra tu equipo y centraliza la comunicación de campo"
     ],
     "cta": "Explorar ORION"
   },
   "services": {
-    "tag": "Lo que hacemos",
-    "title1": "Construyendo, junto al campo,",
+    "tag": "Servicios Disponibles",
+    "title1": "Construyendo, junto al productor,",
     "titleSpan": "el futuro",
     "title2": "de la agricultura",
     "subtitle": "Somos un equipo joven que combina ingeniería y agronomía para desarrollar soluciones tecnológicas junto a productores reales. Cada proyecto nos ayuda a crecer y a mejorar lo que ofrecemos.",
@@ -76,50 +76,157 @@
     "modalClose": "Cerrar",
     "items": [
       {
-        "title": "Sensores IoT",
+        "title": "Sensores Inteligentes",
         "tag": "Tecnología",
-        "text": "Sensores de campo que monitorean humedad, temperatura y nutrientes en tiempo real, en desarrollo continuo junto a los productores que los usan.",
-        "details": "Estamos desplegando una red de sensores IoT que conecta el campo con la plataforma ORION. Medimos humedad del suelo, temperatura, conductividad eléctrica, pH y condiciones climáticas locales, e iteramos el diseño de cada dispositivo a partir de la retroalimentación directa de quienes los usan en sus lotes."
+        "text": "Convierte tu cultivo en una fuente continua de información. Nuestros sensores proporcionan visibilidad sobre las condiciones que afectan la productividad, permitiendo anticiparse a riesgos y tomar decisiones respaldadas por datos reales.",
+        "details": {
+          "parrafo": "Diseñados para agricultura de precisión. Los sensores integran hardware industrial, conectividad celular y energía solar para capturar información directamente desde el campo. Cada dispositivo se conecta automáticamente a ORION, donde los datos son analizados, visualizados y transformados en alertas y recomendaciones accionables.\n\nDependiendo de las necesidades de cada operación, es posible monitorear desde 4 hasta 14 variables en una misma solución.",
+          "modelosTitulo": "Modelos más populares:",
+          "modelos": [
+            {
+              "nombre": "XM Lite",
+              "precio": "700 USD",
+              "descripcion": "La forma más sencilla de iniciar en agricultura de precisión, con monitoreo de las variables esenciales para el cultivo: Humedad y Temperatura en suelo y ambiente."
+            },
+            {
+              "nombre": "XL",
+              "precio": "1.300 USD",
+              "descripcion": "Nuestra solución más completa, capaz de integrar las 14 variables climaticas (ambientales y de suelo) en un único dispositivo."
+            }
+          ],
+          "variablesAmbientales": [
+            "Temperatura ambiente",
+            "Humedad ambiente",
+            "Luminosidad",
+            "Radiación UV",
+            "Presión atmosférica",
+            "Altitud"
+          ],
+          "variablesSuelo": [
+            "Humedad del suelo",
+            "Temperatura del suelo",
+            "Conductividad eléctrica (EC)",
+            "pH",
+            "Salinidad",
+            "Nitrógeno (N)",
+            "Fósforo (P)",
+            "Potasio (K)"
+          ],
+          "caracteristicas": [
+            "Panel solar integrado para operación autónoma",
+            "Comunicación 4G/LTE sin infraestructura adicional",
+            "Actualizaciones remotas de firmware (OTA)",
+            "Monitoreo continuo 24/7",
+            "Instalación plug & play",
+            "Alertas automáticas y visualización en ORION",
+            "Arquitectura escalable para múltiples lotes y cultivos"
+          ],
+          "configuracionesIntermedias": "La línea XM ofrece múltiples configuraciones que permiten escalar progresivamente la capacidad de monitoreo según las necesidades de cada cultivo.",
+          "catalogoCta": "Solicita nuestro catálogo para conocer todas las configuraciones disponibles."
+        }
       },
       {
         "title": "Trazabilidad Operativa",
         "tag": "Operaciones",
-        "text": "Registro digital de labores, aplicaciones e insumos de campo, pensado para crecer junto a la operación de cada aliado.",
-        "details": "Ofrecemos un registro digital de las actividades de campo (labores, aplicaciones, insumos) para que cada productor tenga trazabilidad clara de su operación. Seguimos sumando funciones a partir de los casos reales en los que trabajamos con nuestros primeros aliados."
+        "text": "Construye un historial digital de tu operación agrícola. Registra actividades, aplicaciones, inspecciones y evidencias para mejorar el control, la coordinación y la toma de decisiones.",
+        "details": {
+          "parrafo": "ORUS permite digitalizar las actividades que ocurren en campo, transformando registros dispersos en información estructurada y accesible. Desde la asignación de tareas hasta la validación de actividades ejecutadas, toda la operación queda centralizada en ORION para facilitar el seguimiento y la mejora continua.",
+          "precio": "10 USD x mes x operario",
+
+          "caracteristicasTitulo": "Características principales:",
+          "caracteristicas": [
+            "Asignación de tareas a operarios",
+            "Registro digital de actividades",
+            "Evidencia fotográfica en campo",
+            "Control de aplicaciones e insumos"
+          ],
+
+          "beneficiosTitulo": "Beneficios:",
+          "beneficios": [
+            "Mayor control operativo",
+            "Reducción de errores de registro",
+            "Mejor coordinación entre equipos",
+            "Seguimiento histórico"
+          ],
+
+          "footer": "Continuamos ampliando capacidades junto a nuestros aliados.",
+          "cta": "Contáctanos para conocer las funcionalidades disponibles para tu operación."
+        }
       },
       {
-        "title": "Imágenes Satelitales",
-        "tag": "Satélite",
-        "text": "Procesamiento de imágenes satelitales para apoyar la identificación temprana de estrés hídrico y variabilidad de cultivos.",
-        "details": "Procesamos imágenes satelitales multiespectrales para generar índices de vegetación (como NDVI) y mapas de variabilidad espacial. Es una capacidad que seguimos perfeccionando, con el objetivo de que cada vez sea más precisa y útil para la toma de decisiones en campo."
+        "title": "Análisis Satelital",
+        "tag": "Imagenes Multiespectrales",
+        "text": "Obtén una visión completa de tus cultivos desde el espacio. Analiza el comportamiento de cada lote e identifica variaciones antes de que se conviertan en problemas visibles en campo.",
+        "details": {
+          "parrafo": "El análisis satelital complementa la información capturada por sensores y actividades de campo, proporcionando una perspectiva integral de la producción. Mediante imágenes multiespectrales y modelos de análisis espacial, ORUS ayuda a identificar patrones, anomalías y oportunidades de mejora a escala de lote, finca o región.\n\nToda la información se integra en ORION para facilitar la comparación histórica, el monitoreo continuo y la toma de decisiones respaldadas por evidencia.",
+          "precio": "8 USD x mes x hectárea",
+
+          "indicesTitulo": "Índices multiespectrales monitoreados:",
+          "indices": [
+            {
+              "nombre": "NDVI",
+              "descripcion": "Evalúa el vigor y la salud general de la vegetación."
+            },
+            {
+              "nombre": "NDMI",
+              "descripcion": "Permite estimar el contenido de humedad en la vegetación."
+            },
+            {
+              "nombre": "WDVI",
+              "descripcion": "Reduce la influencia del suelo en el análisis."
+            },
+            {
+              "nombre": "NDRE",
+              "descripcion": "Detecta variaciones en el contenido de clorofila."
+            }
+          ],
+
+          "caracteristicasTitulo": "Características clave:",
+          "caracteristicas": [
+            "Comparación histórica de lotes y campañas",
+            "Detección temprana de anomalías",
+            "Visualización geoespacial integrada"
+          ],
+
+          "beneficiosTitulo": "Beneficios:",
+          "beneficios": [
+            "Cobertura sin desplazamientos constantes",
+            "Optimización de recursos",
+            "Mejor comprensión de la variabilidad",
+            "Apoyo a decisiones estratégicas"
+          ],
+
+          "evolucion": "Seguimos incorporando nuevos índices y modelos para una visión cada vez más precisa.",
+          "cta": "Consulta las capacidades satelitales para tu región."
+        }
       }
     ]
   },
   "aiagent": {
     "tag": "Inteligencia Artificial",
-    "title1": "Tu agente agrícola",
-    "titleSpan": "siempre activo.",
-    "desc": "El agente de IA de ORUS no solo analiza datos: actúa. Aprende de tus patrones, anticipa problemas y te entrega la información correcta en el momento exacto para que nunca pierdas el control de tu operación.",
+    "title1": "Tu agrónomo digital,",
+    "titleSpan": "conectado a toda tu operación.",
+    "desc": "Nuestro agente AI transforma información dispersa en respuestas claras y accionables. Con acceso a datos de sensores, trazabilidad operativa e imágenes satelitales, puede responder preguntas, generar reportes, emitir alertas y ayudarte a tomar mejores decisiones en tiempo real.",
     "cta": "Agenda una demo",
     "whatsappAlt": "Demo conversación WhatsApp con agente ORUS",
     "whatsappPlaceholderTitle": "WhatsApp demo",
     "whatsappPlaceholderHint": "Agrega la imagen en",
     "benefits": [
       {
-        "title": "Notificaciones inteligentes",
-        "text": "Recibe alertas personalizadas cuando los datos de tus cultivos superan umbrales críticos, antes de que el problema escale."
+        "title": "Consulta tu operación en lenguaje natural",
+        "text": "Pregunta por indicadores, actividades o condiciones del cultivo y obtén respuestas inmediatas."
       },
       {
-        "title": "Recomendaciones basadas en datos",
-        "text": "Obtén sugerencias concretas de riego, fertilización o intervención agronómica respaldadas por el historial de tu campo."
+        "title": "Alertas inteligentes",
+        "text": "Recibe notificaciones automáticas cuando se detecten condiciones que requieren atención."
       },
       {
-        "title": "Monitoreo automatizado",
-        "text": "Automatiza la vigilancia de tus cultivos 24/7 sin necesidad de revisar manualmente cada dato o reporte."
+        "title": "Reportes automáticos",
+        "text": "Genera resúmenes e informes sin necesidad de revisar múltiples fuentes de información."
       },
       {
-        "title": "Decisiones más inteligentes",
-        "text": "Integra información de sensores, satélites y operaciones para tomar decisiones con mayor contexto y menor incertidumbre."
+        "title": "Decisiones con más contexto",
+        "text": "Integra información de sensores, trazabilidad y satélites para tomar decisiones respaldadas por datos."
       }
     ]
   },
@@ -148,6 +255,12 @@
         "university": "Universidad Nacional"
       },
       {
+        "name": "Martín Pérez",
+        "role": "Agrónomo",
+        "education": "Ing. Agrícola",
+        "university": "Universidad Nacional de Colombia"
+      },
+      {
         "name": "Santiago Gómez",
         "role": "Desarrollador de Software",
         "education": "Análisis y Desarrollo de Software",
@@ -170,20 +283,14 @@
         "role": "Desarrollador de Software",
         "education": "Ing. Sistemas y Computación",
         "university": "Universidad de los Andes"
-      },
-      {
-        "name": "Martín Pérez",
-        "role": "Agrónomo",
-        "education": "Ing. Agrícola",
-        "university": "Universidad Nacional de Colombia"
       }
     ]
   },
   "gallery": {
     "tag": "Galería",
-    "title1": "Nuestro campo,",
-    "titleSpan": "nuestra pasión",
-    "subtitle": "Un vistazo a las ferias, eventos y espacios donde ORUS Agriculture ha estado presente.",
+    "title1": "Así construimos ",
+    "titleSpan": "ORUS",
+    "subtitle": "Un recorrido por el desarrollo de nuestras tecnologías, implementaciones en campo y participación en los principales espacios de innovación agrícola.",
     "openLabel": "Ver fotos",
     "closeLabel": "Cerrar",
     "prevLabel": "Foto anterior",
@@ -191,16 +298,16 @@
     "photosLabel": "fotos",
     "photoPending": "Foto pendiente de cargar",
     "categories": [
-      { "title": "Ferias" },
-      { "title": "Eventos empresariales" },
-      { "title": "Capacitaciones" }
+      { "title": "Investigación y Desarrollo" },
+      { "title": "Implementación y Operación" },
+      { "title": "Alianzas y Comunidad" }
     ]
   },
   "partners": {
     "tag": "Nuestros aliados",
     "title1": "Empresas que",
     "titleSpan": "confían",
-    "title2": "en ORUS",
+    "title2": "en nosotros",
     "subtitle": "Una red de socios estratégicos que fortalece nuestro ecosistema y amplía el impacto de cada proyecto agrícola.",
     "logoAlt": "Logo de aliado ORUS",
     "ctaText": "¿Tu empresa quiere ser parte del ecosistema ORUS?",
@@ -241,7 +348,7 @@
     "subtitle": "Productores y técnicos que ya transformaron su operación con ORUS Agriculture."
   },
   "footer": {
-    "tagline": "Agricultura inteligente para el siglo XXI.",
+    "tagline": "Ecosistema del Agricultura de Precisión",
     "empresa": "Empresa",
     "legal": "Legal",
     "newsletter": "Newsletter",

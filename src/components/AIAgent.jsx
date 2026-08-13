@@ -60,6 +60,16 @@ export default function AIAgent() {
               src="/img/Recursos/captura.png"
               alt={t('aiagent.whatsappAlt')}
               className="ai-agent__phone-img"
+              style={{
+                width: '200%',
+                maxWidth: '480px',
+                height: 'auto',
+                display: 'block',
+                margin: '0 auto',
+                borderRadius: '18px',
+                boxShadow: '0 8px 32px #0003',
+                minHeight: '420px'
+              }}
               onError={(e) => {
                 e.currentTarget.style.display = 'none'
                 e.currentTarget.nextSibling.style.display = 'flex'

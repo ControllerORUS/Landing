@@ -3,7 +3,8 @@ import { useTranslation } from 'react-i18next'
 import './Hero.css'
 
 const slideImages = [
-  'https://images.unsplash.com/photo-1500937386664-56d1dfef3854?w=1600&q=80',
+  /*'https://images.unsplash.com/photo-1500937386664-56d1dfef3854?w=1600&q=80',*/
+  '/img/Recursos/hero1.jpg',
 ]
 
 export default function Hero() {

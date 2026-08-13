@@ -19,6 +19,10 @@ const teamMeta = [
     linkedin: 'https://linkedin.com/in/sebastianrubi',
   },
   {
+    img: '/img/Equipo/MartinP.jpg',
+    linkedin: 'https://www.linkedin.com/in/marperpe-007602204/',
+  },
+  {
     img: '/img/Equipo/Santiago.jpeg',
     linkedin: 'https://www.linkedin.com/in/santiago-gomez-duque-a566323a1/',
   },
@@ -33,10 +37,6 @@ const teamMeta = [
   {
     img: '/img/Equipo/DanielG.jpg',
     linkedin: 'https://www.linkedin.com/in/danielgomezavila/',
-  },
-  {
-    img: '/img/Equipo/MartinP.jpg',
-    linkedin: 'https://www.linkedin.com/in/marperpe-007602204/',
   },
 ]
 

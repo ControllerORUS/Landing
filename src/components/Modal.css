@@ -24,7 +24,7 @@
   background: var(--white);
   border-radius: var(--radius-lg);
   box-shadow: 0 24px 80px rgba(0,0,0,.22);
-  max-width: 640px;
+  max-width: 860px;
   width: 100%;
   max-height: 88vh;
   overflow-y: auto;
